@@ -1,32 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-<body>
-<h1 style="text-align:center;"><b>Welcome to my home page</b></h1>
-<img src="../../../public/my_image.jpg" alt="Trulli" width="100%" height="100">
-<div>
-  <hr>
+<div class="center jumbotron">
+  <h1>Alpha Blog</h1>
+<%= link_to 'Sign up', "#", class: "btn btn-danger btn-xlg" %> |
+  <script>
+      window.fwSettings={
+          'widget_id':5102639
+      };
+      !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()
+  </script>
+  <script type='text/javascript'>FreshworksWidget('hide')</script>
+  <script type='text/javascript' src='https://freshwidget.freshpo.com/widgets/5102639.js' async defer></script>
+
 </div>
-<div>
-<pre style = "color:blue;display: inline-block; text-align: center;width: 650px; vertical-align: bottom;">
-This is a paragraph for my home page.
-THis ia Alkaff.
-Age 34.
-Gender male
-</pre>
-  <hr style="width: 3px;display: inline-block; height: 100px; background: black; border: none; vertical-align: bottom;" />
-  <pre style = "color:blue;display: inline-block; text-align: center;width:500px; vertical-align: bottom;">
-This is a paragraph for my home page.
-This is Aakifah.
-Age 9.
-Gender Female
-</pre>
-</div>
-<footer style="text-align: center; background-color:#777;color: white;">
-  <p>My Footer</p>
-</footer>
-</body>
-</head>
-</html>
-<%= link_to 'Alpha Blog', articles_path %> |
-<%=link_to 'About', about_path %>
+<button type="button" onClick="FreshworksWidget('open')">Open</button>
+<button type="button" onClick="FreshworksWidget('show')">Show</button>
